@@ -7,9 +7,9 @@ const Hero = () => {
             <picture>
                 <source srcSet="/images/hero-img.avif 1x, /images/hero-img.avif@2x 2x, /images/hero-img.avif@3x 3x" />
                 <source srcSet="/images/hero-img.jpg 1x, /images/hero-img.jpg@2x 2x, /images/hero-img.jpg@3x 3x" />
-                <HeroImage alt="A beautiful cat" src="/images/hero-img.jpg" />
+                <HeroImage alt="The Unsprinkle cat watches you" src="/images/hero-img.jpg" />
             </picture>
-            <Swoop src="/swoop.svg" />
+            <Swoop src="/swoop.svg" alt="" />
         </Wrapper>
     );
 };
